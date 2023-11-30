@@ -137,7 +137,7 @@
       // Função para lidar com a entrada do código
       function handleCodigoInput(event) {
         const codigoValue = event.target.value;
-        const url = `http://localhost/vendas_server.php?codigo=${codigoValue}`;
+        const url = `https://php-crud.rodrigoacs.com/vendas_server.php?codigo=${codigoValue}`;
 
         fetch(url)
           .then(response => response.json())
